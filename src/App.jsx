@@ -1,8 +1,11 @@
+import CardNFT from './components/CardNFT/CardNFT'
+import './App.css'
+
 function App() {
   return (
-    <div>
-      <h1>NFT Card</h1>
-    </div>
+    <main className="app">
+      <CardNFT />
+    </main>
   )
 }
 

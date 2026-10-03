@@ -1,0 +1,8 @@
+.app {
+  min-height: 100vh;
+  background-color: #0d192b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
