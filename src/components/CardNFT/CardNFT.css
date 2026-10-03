@@ -73,8 +73,8 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background-color: #8bacd9;
   border: 2px solid white;
+  object-fit: cover;
 }
 
 @media (max-width: 480px) {

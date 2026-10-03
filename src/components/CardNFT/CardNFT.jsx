@@ -1,3 +1,5 @@
+import equilibriumImage from '../../assets/image-equilibrium.jpg'
+import avatarImage from '../../assets/image-avatar.png'
 import './CardNFT.css'
 
 function CardNFT() {
@@ -5,8 +7,8 @@ function CardNFT() {
     <article className="card-nft">
       <div className="card-nft__image">
         <img
-          src="https://images.unsplash.com/photo-1634986666676-ec8fd927c23d"
-          alt="NFT"
+            src={equilibriumImage}
+            alt="Equilibrium NFT"
         />
       </div>
 
@@ -22,8 +24,11 @@ function CardNFT() {
       </div>
 
       <div className="card-nft__creator">
-        <div className="creator-image"></div>
-
+        <img
+            className="creator-image"
+            src={avatarImage}
+            alt="Jules Wyvern"
+        />
         <p>
           Creation of <strong>Jules Wyvern</strong>
         </p>
