@@ -1,26 +1,25 @@
-import equilibriumImage from '../../assets/image-equilibrium.jpg'
 import avatarImage from '../../assets/image-avatar.png'
 import './CardNFT.css'
 
-function CardNFT() {
+function CardNFT({ title, description, price, time, image }) {
   return (
     <article className="card-nft">
       <div className="card-nft__image">
         <img
-            src={equilibriumImage}
-            alt="Equilibrium NFT"
+            src={image}
+            alt={title}
         />
       </div>
 
-      <h2>Equilibrium #3429</h2>
+      <h2>{title}</h2>
 
       <p className="description">
-        Our Equilibrium collection promotes balance and calm.
+        {description}
       </p>
 
       <div className="card-nft__info">
-        <span>♦ 0.041 ETH</span>
-        <span>◷ 3 days left</span>
+        <span>♦ {price}</span>
+        <span>◷ {time}</span>
       </div>
 
       <div className="card-nft__creator">
