@@ -1,5 +1,5 @@
 .app {
-  min-height: 100vh;
+  min-height: calc(100vh - 91px);
   background-color: #0d192b;
   padding: 50px 30px;
 }
