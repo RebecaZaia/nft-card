@@ -3,7 +3,7 @@ import './CardNFT.css'
 
 function CardNFT({ title, description, price, time, image }) {
   return (
-    <article className="card-nft">
+    <article className="card-nft animate__animated animate__fadeInUp">
       <div className="card-nft__image">
         <img
             src={image}
